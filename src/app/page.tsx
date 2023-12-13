@@ -1,8 +1,20 @@
-import Image from 'next/image'
+import { NextPage } from "next";
+import Head from "next/head";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
-    <main className="">
-    </main>
-  )
+    <div className="bg-zinc-800 text-white h-screen overflow-hidden">
+      <Head>
+        <title>Portfolio Marcelo</title>
+      </Head>
+      <Header />
+      <section id="hero">
+        <Hero />
+      </section>
+    </div>
+  );
 }
+
+export default Home;
