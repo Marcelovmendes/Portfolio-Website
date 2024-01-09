@@ -5,12 +5,12 @@ import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-zinc-800 text-white h-screen overflow-hidden">
+    <div className="bg-zinc-800 text-white h-screen snap-mandatory z-0">
       <Head>
         <title>Portfolio Marcelo</title>
       </Head>
       <Header />
-      <section id="hero">
+      <section id="hero" className="snap-center">
         <Hero />
       </section>
     </div>
