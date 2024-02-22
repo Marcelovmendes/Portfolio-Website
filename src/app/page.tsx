@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-zinc-800 text-white h-screen snap-mandatory z-0">
+    <div className="bg-zinc-800 text-white h-full snap-mandatory overflow-hidden z-0">
       <Head>
         <title>Portfolio Marcelo</title>
       </Head>
